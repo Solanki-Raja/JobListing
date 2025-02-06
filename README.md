@@ -26,23 +26,6 @@
 
 ---
 
----
-
-## 🔥 **1. Backend Setup (FastAPI + MongoDB)**
-### **📌 Prerequisites**
-- Install **Python 3.9+**
-- Install **MongoDB** (Ensure MongoDB is running)
-
-### **📌 Install FastAPI Backend**
-```bash
-cd backend
-python -m venv myenv        # Create Virtual Environment
-source venv/bin/activate   # macOS/Linux
-venv\Scripts\activate      # Windows
-
-pip install -r requirements.txt  # Install dependencies
-```
-
 ### **📌 Project Structure**
 
 ```
@@ -78,11 +61,18 @@ pip install -r requirements.txt  # Install dependencies
 │── requirements.txt    # Python Dependencies
 ```
 
+---
+
 ## Setup Instructions
+
+## 🔥 **1. Backend Setup (FastAPI + MongoDB)**
+### **📌 Prerequisites**
+- Install **Python 3.9+**
+- Install **MongoDB** (Ensure MongoDB is running)
 
 ### **1️⃣ Clone the Repository**
 ```sh
-git clone https://github.com/yourusername/job-board-app.git
+git clone https://github.com/yourusername/JobListing.git
 cd JobListing
 ```
 

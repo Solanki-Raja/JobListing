@@ -132,31 +132,17 @@ http://localhost:3000
 ## 🔥 **3. Steps that I will take to make it production ready**
 ## Steps that I will take to make it production ready 
 
-### **1️⃣ Deploy FastAPI Backend**
-- Use **Docker**, **AWS EC2**, **Heroku**, or **Render**.
-- Example using Docker:
-```sh
-docker build -t job-backend .
-docker run -p 8000:8000 job-backend
-```
-
-### **2️⃣ Deploy MongoDB**
-- Use **MongoDB Atlas** or self-hosted **MongoDB instance**.
-
-### **3️⃣ Deploy React Frontend**
-- Use **Vercel**, **Netlify**, or **AWS S3 + CloudFront**.
-- Example using Vercel:
-```sh
-npm install -g vercel
-vercel
-```
+🔹 1 Dockerize Backend & Frontend
+🔹 2 Deploy MongoDB on MongoDB Atlas
+🔹 3 Deploy FastAPI Backend on AWS EC2
+🔹 4 Deploy React Frontend on Vercel
+🔹 5 Automate CI/CD with Jenkins
 
 ---
 
 ## Future Enhancements
 - ✅ Add Authentication (JWT, OAuth)
 - ✅ Implement Role-Based Access Control (RBAC)
-- ✅ Add CI/CD Pipeline for auto-deployments
 - ✅ Enhance UI with better filtering and search options
 
 ---

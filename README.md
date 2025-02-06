@@ -32,7 +32,7 @@ venv\Scripts\activate      # Windows
 pip install -r requirements.txt  # Install dependencies
 ```
 
-### **📌 Project Structure
+### **📌 Project Structure**
 
 job-board-app/
 │── backend/            # FastAPI Backend (Python)

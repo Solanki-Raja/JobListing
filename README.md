@@ -29,7 +29,7 @@
 ### **📌 Project Structure**
 
 ```
-📁 job-board-app/
+📁 JobListing/
 │── backend/            # FastAPI Backend (Python)
 │   ├── __pycache__/    # Python cache files
 │   ├── controller.py   # Business Logic Layer
@@ -52,6 +52,7 @@
 │   │   │   ├── logo.svg       # Logo Image
 │   │   │   ├── reportWebVitals.js # Performance Reporting
 │   │   │   ├── setupTests.js  # Test Setup
+|   ├── frontendtesting.png       # Frontend image
 │   ├── .gitignore       # Git ignore file
 │   ├── package-lock.json # Lock file for dependencies
 │   ├── package.json     # React Dependencies

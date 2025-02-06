@@ -108,8 +108,8 @@ Use Postman or a browser to test:
 
 
 
-
-### **3️⃣ Frontend Setup (React + Material UI)**
+## 🔥 **2. Frontend Setup (React + Material UI)**
+### **1️⃣ Frontend Setup (React + Material UI)**
 #### **Install dependencies**
 Although dependancies would be install through requirements.txt but if you want to install manually below are the commnands.
 
@@ -129,7 +129,7 @@ http://localhost:3000
 ```
 
 
-
+## 🔥 **3. Steps that I will take to make it production ready**
 ## Steps that I will take to make it production ready 
 
 ### **1️⃣ Deploy FastAPI Backend**

@@ -2,6 +2,17 @@
   text-align: center;
 }
 
+/* ✅ Add Background Image to the Whole Page */
+body {
+  background-image: url('./public/background.png'); /* Ensure the path is correct */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,7 +25,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: rgba(40, 44, 52, 0.8); /* ✅ Slight transparency to blend with background */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +33,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 20px;
 }
 
 .App-link {

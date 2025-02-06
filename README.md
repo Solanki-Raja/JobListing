@@ -79,7 +79,7 @@ cd JobListing
 ### **2️⃣ Backend Setup (FastAPI)**
 #### **Install dependencies**
 ```sh
-python -m venv env
+python -m venv myenv
 source env/bin/activate  # On Windows use `env\Scripts\activate`
 pip install -r requirements.txt
 cd backend
@@ -92,7 +92,7 @@ Make sure MongoDB is running locally or use **MongoDB Atlas**.
 ```sh
 uvicorn main:app --reload
 ```
-Your FastAPI API will be running at:
+FastAPI API will be running at:
 ```
 http://127.0.0.1:8000
 ```

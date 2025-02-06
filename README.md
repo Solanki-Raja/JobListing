@@ -127,6 +127,8 @@ frontend app will be running at:
 ```
 http://localhost:3000
 ```
+![Frontend Testing Screenshot](frontend/frontendtesting.png)
+
 
 
 ## 🔥 **3. Steps that I will take to make it production ready**

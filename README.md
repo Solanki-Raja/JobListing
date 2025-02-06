@@ -134,13 +134,28 @@ Frontend Testing Screenshot
 
 
 ## 🔥 **3. Steps that I will take to make it production ready**
-## Steps that I will take to make it production ready 
+## 🚀 Making Application Production Ready
 
-- 1️⃣ Dockerize Backend & Frontend
-- 2️⃣ Deploy MongoDB on MongoDB Atlas
-- 3️⃣ Deploy FastAPI Backend on AWS EC2
-- 4️⃣ Deploy React Frontend on Vercel
-- 5️⃣ Automate CI/CD with Jenkins
+- 1️⃣ **Deploy application to cloud for scalability**
+  - As the number of users and request rate increase, we will need to increase resources in terms of compute, routing, and storage. To scale quickly from a few hundred users to millions, it will be wise to move the solution to an **IAC cloud platform** like **AWS, Azure, or Google Cloud**, if we don't want to commit to buying on-prem hardware resources.
+
+- 2️⃣ **Setup Gunicorn as WSGI server**
+  - Using **Gunicorn** in production ensures your Python web application can efficiently handle multiple requests simultaneously through its support for multi-processing and concurrency. It also offers reliability with automatic worker recovery and performance optimizations, making it a robust choice for scalable, high-traffic environments. Additionally, it integrates seamlessly with popular web frameworks and reverse proxies like **Nginx**, ensuring your app is secure and well-configured for production.
+
+- 3️⃣ **Use containerization**
+  - Use a containerization framework like **Docker** to make the project horizontally scalable.
+
+- 4️⃣ **Use a managed cloud database**
+  - Using a managed cloud database like **MongoDB Atlas** will provide **scalability** to storage and **resiliency** against data loss and downtime.
+
+- 5️⃣ **Setup CI/CD pipeline**
+  - Using **GitLab/Jenkins** or cloud-integrated CI/CD tools like **AWS CodePipeline**, to release updates with **minimal downtime** and have **automated testing** integrated to make the project more robust and fail-safe.
+
+- 6️⃣ **Monitoring applications**
+  - Integrate **Prometheus** or **Datadog** for **logging** and **monitoring** of application performance.
+
+- 7️⃣ **Create Infrastructure as Code scripts**
+  - Using **Terraform** or **Cloud Development Kits (CDK)** to **automate** the spin-up and teardown of resources.
 
 ---
 
@@ -150,5 +165,3 @@ Frontend Testing Screenshot
 - ✅ Enhance UI with better filtering and search options
 
 ---
-
-

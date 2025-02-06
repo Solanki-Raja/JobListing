@@ -103,3 +103,63 @@ Use Postman or a browser to test:
 - `GET http://127.0.0.1:8000/api/job/{job_id}` → Fetch a job by ID
 
 
+
+
+
+
+
+
+### **3️⃣ Frontend Setup (React + Material UI)**
+#### **Install dependencies**
+Although dependancies would be install through requirements.txt but if you want to install manually below are the commnands.
+
+```sh
+cd frontend/joblistingapp
+npm install
+npm install @mui/material @emotion/react @emotion/styled
+```
+
+#### **Run React Development Server**
+```sh
+npm start
+```
+frontend app will be running at:
+```
+http://localhost:3000
+```
+
+
+
+## Steps that I will take to make it production ready 
+
+### **1️⃣ Deploy FastAPI Backend**
+- Use **Docker**, **AWS EC2**, **Heroku**, or **Render**.
+- Example using Docker:
+```sh
+docker build -t job-backend .
+docker run -p 8000:8000 job-backend
+```
+
+### **2️⃣ Deploy MongoDB**
+- Use **MongoDB Atlas** or self-hosted **MongoDB instance**.
+
+### **3️⃣ Deploy React Frontend**
+- Use **Vercel**, **Netlify**, or **AWS S3 + CloudFront**.
+- Example using Vercel:
+```sh
+npm install -g vercel
+vercel
+```
+
+---
+
+## Future Enhancements
+- ✅ Add Authentication (JWT, OAuth)
+- ✅ Implement Role-Based Access Control (RBAC)
+- ✅ Add CI/CD Pipeline for auto-deployments
+- ✅ Enhance UI with better filtering and search options
+
+---
+
+
+

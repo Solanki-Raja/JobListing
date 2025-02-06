@@ -133,7 +133,7 @@ Frontend Testing Screenshot
 
 
 
-## 🚀 **3.  Making Application Production Ready**
+## 🔥 **3.  Making Application Production Ready**
 
 - 1️⃣ **Deploy application to cloud for scalability**
   - As the number of users and request rate increase, we will need to increase resources in terms of compute, routing, and storage. To scale quickly from a few hundred users to millions, it will be wise to move the solution to an **IAC cloud platform** like **AWS, Azure, or Google Cloud**, if we don't want to commit to buying on-prem hardware resources.

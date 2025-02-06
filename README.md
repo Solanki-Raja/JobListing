@@ -78,4 +78,38 @@ pip install -r requirements.txt  # Install dependencies
 │── requirements.txt    # Python Dependencies
 ```
 
+## Setup Instructions
+
+### **1️⃣ Clone the Repository**
+```sh
+git clone https://github.com/yourusername/job-board-app.git
+cd JobListing
+```
+
+### **2️⃣ Backend Setup (FastAPI)**
+#### **Install dependencies**
+```sh
+python -m venv env
+source env/bin/activate  # On Windows use `env\Scripts\activate`
+pip install -r requirements.txt
+cd backend
+```
+
+#### **Start MongoDB Locally**
+Make sure MongoDB is running locally or use **MongoDB Atlas**.
+
+#### **Run FastAPI Server**
+```sh
+uvicorn main:app --reload
+```
+Your FastAPI API will be running at:
+```
+http://127.0.0.1:8000
+```
+
+#### **Test API Endpoints** (Optional)
+Use Postman or a browser to test:
+- `GET http://127.0.0.1:8000/api/jobs` → Fetch all jobs
+- `GET http://127.0.0.1:8000/api/job/{job_id}` → Fetch a job by ID
+
 

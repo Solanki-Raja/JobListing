@@ -72,7 +72,7 @@
 
 ### **1️⃣ Clone the Repository**
 ```sh
-git clone https://github.com/yourusername/JobListing.git
+git clone https://github.com/Solanki-Raja/JobListing.git
 cd JobListing
 ```
 

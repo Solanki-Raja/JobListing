@@ -132,11 +132,11 @@ http://localhost:3000
 ## 🔥 **3. Steps that I will take to make it production ready**
 ## Steps that I will take to make it production ready 
 
--🔹 1 Dockerize Backend & Frontend
--🔹 2 Deploy MongoDB on MongoDB Atlas
--🔹 3 Deploy FastAPI Backend on AWS EC2
--🔹 4 Deploy React Frontend on Vercel
--🔹 5 Automate CI/CD with Jenkins
+- 1️⃣ Dockerize Backend & Frontend
+- 2️⃣ Deploy MongoDB on MongoDB Atlas
+- 3️⃣ Deploy FastAPI Backend on AWS EC2
+- 4️⃣ Deploy React Frontend on Vercel
+- 5️⃣ Automate CI/CD with Jenkins
 
 ---
 
